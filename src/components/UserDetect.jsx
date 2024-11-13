@@ -1,4 +1,3 @@
-import React from "react";
 import {
     FaGithubAlt,
     FaMapMarkerAlt,
@@ -9,8 +8,8 @@ import {
 
 export default function UserDetect() {
     return (
-        <div className="user-detect grid grid-cols-1 md:grid-cols-5 gap-4 w-full items-start text-start rounded-xl p-4 bg-white">
-            <div className="left-user-box user-image-container bg-slate-500 rounded-full flex items-center justify-center w-[100px] h-[100px] md:w-[150px] md:h-[150px] mx-auto md:mx-0">
+        <div className="user-detect grid grid-cols-1 md:grid-cols-5 gap-4 xl:gap-8 w-full items-start text-start rounded-xl p-4 bg-white">
+            <div className="left-user-box user-image-container bg-slate-500 rounded-full flex items-center justify-center w-[100px] h-[100px] md:w-[150px] md:h-[150px] mx-auto md:mx-0 xl:ml-[-1em]">
                 <FaGithubAlt className="user-image w-16 h-16 md:w-24 md:h-24 p-2" />
             </div>
 
@@ -31,10 +30,10 @@ export default function UserDetect() {
                 </div>
 
                 <p className="font-light opacity-70 w-full mt-2 text-center md:text-left">
-                    bio
+                    Lorem ipsum, dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet consectetur adipisicing
                 </p>
 
-                <div className="rounded-xl profile-data grid grid-cols-3 gap-[10%] mt-4 p-10 text-center">
+                <div className="rounded-xl profile-data grid py-4 text-[13px] grid-cols-3 gap-[10%] mt-4  text-center">
                     <div className="profile-data-element">
                         <p>Repos</p>
                         <span>8</span>
@@ -49,7 +48,7 @@ export default function UserDetect() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-[15%] mt-4 p-10  text-center">
+                <div className="grid gap-4  xl:grid-cols-2 xl:gap-[15%] mt-4  text-center">
                     <div className="user-data-more flex items-center gap-2">
                         <FaMapMarkerAlt className="text-gray-500" />
                         <span>Location</span>
